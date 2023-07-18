@@ -38,7 +38,7 @@ bool SqliteDBManager::openDataBase()
 {
 
     db = QSqlDatabase::addDatabase("QSQLITE");
-    db.setDatabaseName("db.db");
+    db.setDatabaseName("D:/Kursova/kursova/db.db");
     if(db.open()){
         return true;
     } else
